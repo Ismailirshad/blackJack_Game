@@ -1,0 +1,71 @@
+
+
+/* challenge 5 */
+.container-5 {
+    margin-left: 4.5rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    width: 90%;
+}
+.flex-box-container-5{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.flex-box-container-5 .row1{
+    width: 80%;
+    height:500px;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+ .row1 .box1{
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid black;
+    
+}
+.box1 img{
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+}
+.row1 .box2{
+    width: 50%;
+    height: 100%;
+    color: black;   
+}
+.box2 img{
+    padding: 5px;
+    width: 90px;
+    height: 90px;
+}
+
+.row2 {
+    width:80% ;
+    height: 100px;
+    border: 2px solid black;
+    background: #0072ff;
+}
+.row3 {
+   width:80% ;
+    height: 100px;
+    border: 2px solid black;
+    background: #fff; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row3 table{
+     width: 150px;
+
+    
+}
